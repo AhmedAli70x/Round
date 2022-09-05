@@ -114,13 +114,14 @@ $ docker-compose exec web python manage.py createsuperuser
 I cover all of these steps in my three books: [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
 ----
-```API
+## API
+```
 I have created 2 API endpoints: one to register a new user, the other one to list all users.
 To test the code using after setup: python manage.py test
 To test the APIs, please used these urls: 
 - http://localhost:<port_number>/api/list_users/ method GET
 - http://localhost:<port_number>/api/register/   method Post
-
+```
 ----
 ## 🤝 Contributing
 
