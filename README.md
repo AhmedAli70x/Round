@@ -45,6 +45,9 @@ $ .venv\Scripts\Activate.ps1
 # macOS
 $ source djangox/bin/activate
 
+# Linux
+$ source .venv/bin/activate
+
 (.venv) $ pip install -r requirements.txt
 (.venv) $ python manage.py migrate
 (.venv) $ python manage.py createsuperuser
