@@ -116,9 +116,12 @@ I cover all of these steps in my three books: [Django for Beginners](https://dja
 ----
 ## API
 ```
-I have created 2 API endpoints: one to register a new user, the other one to list all users.
-To test the code using after setup: python manage.py test
-To test the APIs on localhost, please used these urls: 
+I have created 2 API endpoints: one to register a new user and the other to list all users.
+
+To test the code after setup: Python manage.py test.
+
+To test the APIs on localhost, please use these URLs:
+
  * http://localhost:<port_number>/api/list_users/ method GET
  * http://localhost:<port_number>/api/register/   method Post
 ```
