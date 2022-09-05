@@ -121,11 +121,10 @@ To test the code using after setup: python manage.py test
 To test the APIs on localhost, please used these urls: 
  * http://localhost:<port_number>/api/list_users/ method GET
  * http://localhost:<port_number>/api/register/   method Post
-
+```
 <img width="534" alt="image" src="https://user-images.githubusercontent.com/71847656/188458854-51151a72-4176-4f07-a739-f3030f2ad6d9.png">
 <img width="514" alt="image" src="https://user-images.githubusercontent.com/71847656/188458917-d76788d8-b55a-4a38-a761-b82b2856aef4.png">
 
-```
 ----
 ## 🤝 Contributing
 
