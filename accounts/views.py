@@ -15,7 +15,7 @@ class RegistrationView(APIView):
         if serializer.is_valid():
             serializer.save()
             return Response({'msg': 'Success', 'user': serializer.data, 'status': status.HTTP_201_CREATED}, status.HTTP_201_CREATED)
-        return Response({'msg': 'serializer.errors', 'status': status.HTTP_400_BAD_REQUEST}, status.HTTP_201_CREATED )
+        return Response({'msg': serializer.errors, 'status': status.HTTP_400_BAD_REQUEST}, status.HTTP_201_CREATED )
 
 
 class ListUsers(APIView):
