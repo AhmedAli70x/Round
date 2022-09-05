@@ -121,7 +121,6 @@ I have created 2 API endpoints: one to register a new user and the other to list
 To test the code after setup: Python manage.py test.
 
 To test the APIs on localhost, please use these URLs:
-
  * http://localhost:<port_number>/api/list_users/ method GET
  * http://localhost:<port_number>/api/register/   method Post
 ```
